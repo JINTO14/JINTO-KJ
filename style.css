@@ -1,0 +1,89 @@
+body{
+Overflow-x:hidden;
+}
+.nav-link{
+    font-size:14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important; 
+    padding-right: 1rem !important;
+}
+.nav-item.active{
+    border-left: #444 3px solid;
+}
+.bg-img{
+    position: relative;
+    background: url("lights.jpg");
+    height: 120px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+
+}
+
+/* .dark-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+  */
+  #video-play{
+    position: relative;
+    background: url("media.jpg");
+    height: 160px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+
+
+}
+#video-play a{
+    
+    color: #fff;
+}
+.v{
+    color: black;
+}
+
+/* about us */
+#page-header{
+    height: 200px;
+    background-image: url("image1.jpg");
+    color: white;
+    background-position:10px-450px;
+    background-attachment: fixed;
+
+}
+
+.about-img{
+    margin-top: -50px;
+}
+/*  */
+#faq a{
+    color:#444;
+    text-decoration: none;
+    color: white;
+}
+/* #faq.card-body{
+    background: #444;  ---doubt
+} */
+.card-header{
+    background: #444;
+    
+}
+.card{
+    border: #444;
+}
+#main-footer{
+    background: black;
+    color: #fff;
+}
+.card{
+    border-style: solid;
+    border-color: rgb(167, 167, 167);
+    border-width: 1px;
+}
